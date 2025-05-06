@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Circle Click</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <header>
+            <h1>CIRCLE CLICK GAME</h1>
+
+            <div class="header-info">
+                <div class="score">
+                    <span>Score:</span>
+                    <span id="score">0</span>
+                </div>
+
+                <div id="timer">00:00</div>
+
+                <div id="hearts" class="hearts">
+                    <span id="heart1">❤</span>
+                    <span id="heart2">❤</span>
+                    <span id="heart3">❤</span>
+                    <span id="heart4">❤</span>
+                    <span id="heart5">❤</span>
+                </div>
+            </div>
+        </header>
+
+        <div id="message" class="textMass">
+            <p>
+                Click the circles as fast as you can
+            </p>
+        </div>
+
+        <div id="gameArea">
+            <div id="circle"></div>
+        </div>
+
+        <div class="btn-container">
+            <button id="restartBtn" class="btn hidden">Play Again</button>
+            <button id="startBtn" class="btn">Start Game</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
